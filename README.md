@@ -1,6 +1,7 @@
 # genotp_cli
 Command Line Interface to generate One Time Password (OTP)
 
+```
 Usage:
   genotp INSTANCE USERNAME [SECRET]
   genotp INSTANCE USERNAME [-t TIME]
@@ -11,3 +12,4 @@ Options:
   USERNAME      Username
   SECRET        Secret key
   TIME          Generate TOTP at specific time, (Format: "YYYY-MM-DD-HH:MM:SS"). If not specified, local time is used
+```
